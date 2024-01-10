@@ -1,0 +1,182 @@
+{
+  "cookies": [
+    {
+      "name": "device_id",
+      "value": "cdba4b47-4b2b-8920-1a01-fc16e5c4f8c8",
+      "domain": "app.todoist.com",
+      "path": "/auth",
+      "expires": 1736552998,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "ps_mode",
+      "value": "trackingV1",
+      "domain": ".todoist.com",
+      "path": "/",
+      "expires": 1712706596,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.923136492.1704930597",
+      "domain": ".todoist.com",
+      "path": "/",
+      "expires": 1739490600.451867,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oauth_anti_forgery_token",
+      "value": "9279ec8a-fd19-4a03-bed5-042be2722f06",
+      "domain": "app.todoist.com",
+      "path": "/",
+      "expires": 1704930897,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "csrf",
+      "value": "a4af5e2a853446c4bb3f646a13fd31bb",
+      "domain": "app.todoist.com",
+      "path": "/",
+      "expires": 1739490598.881978,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tduser",
+      "value": "v4.public.eyJ1c2VyX2lkIjogNDc3Mjc0NjQsICJleHAiOiAiMjAyNC0wMS0yNFQyMzo0OTo1OCswMDowMCJ9peL8HAbWEEPR3UkDMTlZHDYk7MzAgllbTodyiAA_8J-x_OtvzBnhivh4684frnd-3ZPocDywAClf3lMU-t9yDg",
+      "domain": ".todoist.com",
+      "path": "/",
+      "expires": 1706140198.884592,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "todoistd",
+      "value": "\"df/JF13vuZk2TzRgevy7Da+1sYk=?pCHK=gASVJAAAAAAAAACMIGM4MDIzOThjMzQ5NWYyYTA1ZDcwMmJhMzI3ZjEzZDhmlC4=&user_id=gASVBgAAAAAAAABKaEPYAi4=\"",
+      "domain": ".todoist.com",
+      "path": "/",
+      "expires": 1736466598.884702,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.3.923136492.1704930597",
+      "domain": ".app.todoist.com",
+      "path": "/",
+      "expires": 1739490605.326228,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.3.323268325.1704930605",
+      "domain": ".app.todoist.com",
+      "path": "/",
+      "expires": 1705017005,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "logs=1&id=cc8b1192-90f0-4da1-95cc-8aea40fbc20d&created=1704930602537&expire=1704931502537",
+      "domain": "app.todoist.com",
+      "path": "/",
+      "expires": 1704931507,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_ga_M6V9BEQD2J",
+      "value": "GS1.1.1704930596.1.1.1704930607.0.0.0",
+      "domain": ".todoist.com",
+      "path": "/",
+      "expires": 1739490607.659618,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.todoist.com",
+      "localStorage": [
+        {
+          "name": "userleap.ids",
+          "value": "{\"rm80S56rxeyj\":{\"vid\":\"524ff36c-28d4-4c66-a7e2-cc1f36da09cf\",\"trackStartUrl\":\"https://app.todoist.com/app/today\",\"token\":\"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJndCI6InZpc2l0b3IiLCJpZCI6InJtODBTNTZyeGV5aiIsInZpZCI6IjUyNGZmMzZjLTI4ZDQtNGM2Ni1hN2UyLWNjMWYzNmRhMDljZiIsImlhdCI6MTcwNDkzMDU5NywiZXhwIjoxNzA1MTAzMzk3fQ.b8MD8TQdUst_wg4fy31c5z4M0JqkS1PV_ZYpGT65h5xR9GYNFLkZZ8FpfQYhbjtjBrOijMU0PFX75i7Gbqr5AQ\"}}"
+        },
+        {
+          "name": "Queue",
+          "value": "[]"
+        },
+        {
+          "name": "TimestampS2",
+          "value": "\"wawE0oN7-zFub5fF06JmnMrMbG_oMOe8JD14Yzp2ChvcFfEiBvoDRTM3X9pmzN4M4PTsDYP-BHfY7L-G8j__WldY-SVOWTqMlyk5_x378FF-Oxk\""
+        },
+        {
+          "name": "userleap.pageviews",
+          "value": "[{\"viewedAt\":1704930598217,\"location\":\"https://app.todoist.com/auth/login\"},{\"viewedAt\":1704930603971,\"location\":\"https://app.todoist.com/app/\"},{\"viewedAt\":1704930606633,\"location\":\"https://app.todoist.com/app/today\"}]"
+        },
+        {
+          "name": "CurrentTheme",
+          "value": "\"0\""
+        },
+        {
+          "name": "User",
+          "value": "{\"auto_reminder\":30,\"business_account_id\":null,\"daily_goal\":5,\"date_format\":0,\"days_off\":[6,7],\"email\":\"kmirat123@gmail.com\",\"feature_identifier\":\"47727464_ff7ddabc9a3170ed67cd7d565c844d0d963807aa6a689787d3ce9ed502cd81c1\",\"features\":{\"beta\":0,\"dateist_inline_disabled\":false,\"dateist_lang\":null,\"global.teams\":true,\"has_push_reminders\":true,\"karma_disabled\":false,\"karma_vacation\":false,\"restriction\":0},\"full_name\":\"abeer\",\"has_password\":true,\"id\":\"47727464\",\"image_id\":null,\"inbox_project_id\":\"2326547245\",\"is_biz_admin\":false,\"is_celebrations_enabled\":true,\"is_premium\":false,\"joined_at\":\"2024-01-10T11:01:45.118Z\",\"karma\":400,\"karma_trend\":\"up\",\"lang\":\"en\",\"mfa_enabled\":false,\"next_week\":1,\"premium_status\":\"not_premium\",\"premium_until\":null,\"share_limit\":25,\"sort_order\":0,\"start_day\":1,\"start_page\":\"today\",\"theme_id\":\"0\",\"time_format\":0,\"token\":\"48569527bd2aa1cc981ae0000ab265953c93a611\",\"tz_info\":{\"gmt_string\":\"+02:00\",\"hours\":2,\"is_dst\":0,\"minutes\":0,\"timezone\":\"Asia/Jerusalem\"},\"unique_prefix\":2,\"verification_status\":\"unverified\",\"websocket_url\":\"wss://ws.todoist.com/ws?token=OGI4ODRkM2FhMDk5MjhiMPP9ahfQCFqp3j-qkprQuMc\",\"weekend_start_day\":6,\"weekly_goal\":30}"
+        },
+        {
+          "name": "LocalSettings",
+          "value": "{\"completed_sound_desktop\":true,\"completed_sound_mobile\":true,\"legacy_pricing\":0,\"navigation\":{\"counts_shown\":true,\"features\":[{\"name\":\"inbox\",\"shown\":true},{\"name\":\"team_inbox\",\"shown\":true},{\"name\":\"today\",\"shown\":true},{\"name\":\"upcoming\",\"shown\":true},{\"name\":\"filters_and_labels\",\"shown\":true},{\"name\":\"completed\",\"shown\":false}]},\"reminder_desktop\":true,\"reminder_email\":false,\"reminder_push\":true,\"reset_recurring_subtasks\":true,\"quick_add\":{\"labels_shown\":true,\"features\":[{\"name\":\"date\",\"shown\":true},{\"name\":\"assignee\",\"shown\":true},{\"name\":\"priority\",\"shown\":true},{\"name\":\"reminder\",\"shown\":true},{\"name\":\"label\",\"shown\":false},{\"name\":\"location_reminder\",\"shown\":false}]},\"habit_push_notifications\":{\"features\":[{\"enabled\":false,\"name\":\"plan_your_day\",\"send_at\":\"08:00\"},{\"enabled\":false,\"name\":\"review_your_day\",\"send_at\":\"16:00\"},{\"enabled\":false,\"name\":\"onboarding_tips\",\"send_at\":null}]}}"
+        },
+        {
+          "name": "appSubdomainInitialized",
+          "value": "true"
+        },
+        {
+          "name": "td-cdn-ttl",
+          "value": "1707522599726"
+        },
+        {
+          "name": "td-cdn",
+          "value": "https://todoist.b-cdn.net/"
+        },
+        {
+          "name": "BULLET_TRAIN_DB",
+          "value": "{\"api\":\"https://feat-flags.todoist.net/api/v1/\",\"environmentID\":\"BvxSQBSePwNPUcAoGNwSKW\",\"flags\":{\"global.use_flagsmith\":{\"id\":55525,\"enabled\":true,\"value\":null},\"android.navigation_improvements\":{\"id\":55632,\"enabled\":false,\"value\":null},\"android.new_celebrations\":{\"id\":55633,\"enabled\":false,\"value\":null},\"android.non_project_boards\":{\"id\":55635,\"enabled\":false,\"value\":null},\"android.onboarding_tooltips\":{\"id\":55636,\"enabled\":false,\"value\":null},\"android.push_notifications\":{\"id\":55637,\"enabled\":true,\"value\":null},\"android.task_duration_release\":{\"id\":55641,\"enabled\":false,\"value\":null},\"android.view_filters\":{\"id\":55643,\"enabled\":false,\"value\":null},\"backend.backup_all_users\":{\"id\":55645,\"enabled\":false,\"value\":null},\"backend.cache_long_running_full_syncs\":{\"id\":55646,\"enabled\":true,\"value\":null},\"backend.cancel_subscriptions_on_gifting_pro\":{\"id\":55647,\"enabled\":true,\"value\":null},\"backend.captcha\":{\"id\":55648,\"enabled\":false,\"value\":null},\"backend.dd_apm_profile\":{\"id\":55649,\"enabled\":false,\"value\":null},\"backend.disable_workspace_user_limits\":{\"id\":55650,\"enabled\":false,\"value\":null},\"backend.enforce_hibp_checks\":{\"id\":55651,\"enabled\":true,\"value\":null},\"backend.sqs_queues_disabled\":{\"id\":55652,\"enabled\":false,\"value\":null},\"frontend.app_manifests\":{\"id\":55653,\"enabled\":false,\"value\":null},\"frontend.authentication_migration\":{\"id\":55654,\"enabled\":true,\"value\":null},\"frontend.boards_drag_preview\":{\"id\":55655,\"enabled\":false,\"value\":null},\"frontend.calendar_layout_project_view\":{\"id\":55656,\"enabled\":false,\"value\":null},\"frontend.calendar_view\":{\"id\":55657,\"enabled\":false,\"value\":null},\"frontend.captcha\":{\"id\":55658,\"enabled\":false,\"value\":null},\"frontend.collab_core_internal\":{\"id\":55659,\"enabled\":false,\"value\":null},\"frontend.descriptions_comments_editor_migration\":{\"id\":55660,\"enabled\":true,\"value\":null},\"frontend.developer_options\":{\"id\":55661,\"enabled\":false,\"value\":null},\"frontend.dnd_everywhere\":{\"id\":55662,\"enabled\":true,\"value\":null},\"frontend.env\":{\"id\":55663,\"enabled\":false,\"value\":null},\"frontend.new_app_layout\":{\"id\":55664,\"enabled\":false,\"value\":null},\"frontend.new_keyboard_shortcuts\":{\"id\":55665,\"enabled\":true,\"value\":null},\"frontend.persisted_completed_tasks\":{\"id\":55666,\"enabled\":true,\"value\":null},\"frontend.projects_list\":{\"id\":55667,\"enabled\":true,\"value\":null},\"frontend.quick_add_customization\":{\"id\":55668,\"enabled\":true,\"value\":null},\"frontend.quick_add_reminders\":{\"id\":55669,\"enabled\":false,\"value\":null},\"frontend.reminder_suggestions\":{\"id\":55670,\"enabled\":false,\"value\":null},\"frontend.search_settings\":{\"id\":55671,\"enabled\":true,\"value\":null},\"frontend.task_duration_embedded_survey\":{\"id\":55672,\"enabled\":false,\"value\":false},\"frontend.task_duration_general_release\":{\"id\":55673,\"enabled\":true,\"value\":null},\"frontend.topbar_ff_switcher\":{\"id\":55675,\"enabled\":false,\"value\":null},\"frontend.unify_quick_find_command_menu\":{\"id\":55676,\"enabled\":true,\"value\":null},\"frontend.unique_links\":{\"id\":55677,\"enabled\":true,\"value\":null},\"frontend.upcoming_view_boards\":{\"id\":55678,\"enabled\":true,\"value\":null},\"frontend.verify_postmessage_origin\":{\"id\":55679,\"enabled\":true,\"value\":null},\"frontend.virtualized_list_view\":{\"id\":55680,\"enabled\":true,\"value\":null},\"frontend.virtualized_list_with_subtasks_view\":{\"id\":55681,\"enabled\":false,\"value\":null},\"frontend.virtualized_non_project_board_view\":{\"id\":55682,\"enabled\":true,\"value\":null},\"frontend.virtualized_project_board_view\":{\"id\":55683,\"enabled\":true,\"value\":null},\"frontend.workspace_add_button\":{\"id\":55684,\"enabled\":true,\"value\":null},\"frontend.workspace_billing\":{\"id\":55685,\"enabled\":true,\"value\":null},\"frontend.workspace_onboarding\":{\"id\":55686,\"enabled\":true,\"value\":null},\"global.account_verification\":{\"id\":55687,\"enabled\":true,\"value\":null},\"global.allow_new_business_accounts\":{\"id\":55688,\"enabled\":true,\"value\":null},\"global.allow_trial_business_accounts\":{\"id\":55689,\"enabled\":true,\"value\":null},\"global.better_reactions\":{\"id\":55690,\"enabled\":true,\"value\":\"\"},\"global.boards_completed_tasks\":{\"id\":55691,\"enabled\":true,\"value\":null},\"global.captcha\":{\"id\":55692,\"enabled\":false,\"value\":null},\"global.completed_view\":{\"id\":55693,\"enabled\":true,\"value\":null},\"global.duplicate_project\":{\"id\":55694,\"enabled\":true,\"value\":null},\"global.filter_by_due_date\":{\"id\":55695,\"enabled\":false,\"value\":null},\"global.filter_by_label\":{\"id\":55696,\"enabled\":false,\"value\":null},\"global.filter_by_priority\":{\"id\":55697,\"enabled\":false,\"value\":null},\"global.filters_ai\":{\"id\":55698,\"enabled\":true,\"value\":\"\"},\"global.filters_ai_v2\":{\"id\":55699,\"enabled\":false,\"value\":null},\"global.filters_labels_as_board\":{\"id\":55700,\"enabled\":true,\"value\":null},\"global.habit_push_notifications\":{\"id\":55701,\"enabled\":false,\"value\":null},\"global.mfa\":{\"id\":55702,\"enabled\":false,\"value\":null},\"global.minimal_style_exploration\":{\"id\":55703,\"enabled\":false,\"value\":null},\"global.move_in_workspace\":{\"id\":55704,\"enabled\":true,\"value\":null},\"global.move_tasks_or_sections_between_workspace_projects\":{\"id\":55705,\"enabled\":true,\"value\":null},\"global.move_to_workspace\":{\"id\":55706,\"enabled\":true,\"value\":null},\"global.navigation_customization\":{\"id\":55707,\"enabled\":true,\"value\":null},\"global.no_dropbox_no_drive\":{\"id\":55708,\"enabled\":true,\"value\":null},\"global.quick_add_customization\":{\"id\":55709,\"enabled\":false,\"value\":null},\"global.quick_add_reminders\":{\"id\":55710,\"enabled\":true,\"value\":null},\"global.quick_find_improvements\":{\"id\":55711,\"enabled\":true,\"value\":null},\"global.reset_subtasks\":{\"id\":55712,\"enabled\":true,\"value\":null},\"global.reset_subtasks_setting\":{\"id\":55713,\"enabled\":true,\"value\":null},\"global.sections_one_point_five\":{\"id\":55714,\"enabled\":true,\"value\":null},\"global.separate_time_location_reminders\":{\"id\":55715,\"enabled\":true,\"value\":null},\"global.task_duration\":{\"id\":55716,\"enabled\":false,\"value\":null},\"global.teams\":{\"id\":55717,\"enabled\":false,\"value\":null},\"global.uncompletable_tasks\":{\"id\":55718,\"enabled\":true,\"value\":\"\"},\"global.unread_notifications_tab\":{\"id\":55719,\"enabled\":true,\"value\":null},\"global.view_mode\":{\"id\":55720,\"enabled\":true,\"value\":null},\"ios.add_section_fab\":{\"id\":55721,\"enabled\":false,\"value\":null},\"ios.add_tasks_from_clipboard\":{\"id\":55722,\"enabled\":false,\"value\":null},\"ios.alamofire_timeout\":{\"id\":55723,\"enabled\":false,\"value\":null},\"ios.animated_emptyview\":{\"id\":55724,\"enabled\":false,\"value\":null},\"ios.auth_email_screen_redesign\":{\"id\":55725,\"enabled\":true,\"value\":null},\"ios.breadcrumb_and_move_update\":{\"id\":55726,\"enabled\":true,\"value\":null},\"ios.captcha\":{\"id\":55727,\"enabled\":false,\"value\":null},\"ios.celebration_states\":{\"id\":55728,\"enabled\":false,\"value\":null},\"ios.collapsible_overdue\":{\"id\":55729,\"enabled\":true,\"value\":null},\"ios.daily_review_notification\":{\"id\":55730,\"enabled\":false,\"value\":null},\"ios.debug_background_sync\":{\"id\":55731,\"enabled\":false,\"value\":null},\"ios.disable_realm\":{\"id\":55732,\"enabled\":false,\"value\":null},\"ios.doistcolors\":{\"id\":55733,\"enabled\":false,\"value\":null},\"ios.doist_colors\":{\"id\":55734,\"enabled\":false,\"value\":null},\"ios.enable_sqlite_read\":{\"id\":55735,\"enabled\":false,\"value\":null},\"ios.enable_sqlite_write\":{\"id\":55736,\"enabled\":false,\"value\":null},\"ios.extra_snooze_options\":{\"id\":55737,\"enabled\":false,\"value\":null},\"ios.goal_celebrations\":{\"id\":55738,\"enabled\":true,\"value\":null},\"ios.goal_celebrations_setting\":{\"id\":55739,\"enabled\":true,\"value\":null},\"ios.guided_onboarding\":{\"id\":55740,\"enabled\":false,\"value\":null},\"ios.list_show_section\":{\"id\":55741,\"enabled\":true,\"value\":null},\"ios.log_storage_configuration\":{\"id\":55742,\"enabled\":false,\"value\":null},\"ios.log_view_options\":{\"id\":55743,\"enabled\":false,\"value\":null},\"ios.log_widget_fetch_usermodel_error\":{\"id\":55744,\"enabled\":false,\"value\":null},\"ios.log_widget_reloading\":{\"id\":55745,\"enabled\":false,\"value\":null},\"ios.menu_cell_refactor\":{\"id\":55746,\"enabled\":false,\"value\":null},\"ios.menu_refactor\":{\"id\":55747,\"enabled\":false,\"value\":null},\"ios.more_characters_in_names\":{\"id\":55748,\"enabled\":false,\"value\":null},\"ios.new_habit_notifications\":{\"id\":55749,\"enabled\":true,\"value\":null},\"ios.new_language_settings\":{\"id\":55750,\"enabled\":false,\"value\":null},\"ios.new_layout\":{\"id\":55751,\"enabled\":false,\"value\":null},\"ios.new_sharing\":{\"id\":55752,\"enabled\":false,\"value\":null},\"ios.new_view_options\":{\"id\":55753,\"enabled\":false,\"value\":null},\"ios.non_project_boards\":{\"id\":55754,\"enabled\":false,\"value\":null},\"ios.onboarding_beginner_tooltips\":{\"id\":55755,\"enabled\":true,\"value\":null},\"ios.onboarding_general_tooltips\":{\"id\":55756,\"enabled\":true,\"value\":null},\"ios.orientation_tracking\":{\"id\":55757,\"enabled\":true,\"value\":null},\"ios.pro_badge\":{\"id\":55758,\"enabled\":false,\"value\":null},\"ios.project_comment_count\":{\"id\":55759,\"enabled\":false,\"value\":null},\"ios.quick_add_attachment\":{\"id\":55760,\"enabled\":false,\"value\":null},\"ios.reduce_sync_delay\":{\"id\":55761,\"enabled\":true,\"value\":null},\"ios.reminders_alert\":{\"id\":55762,\"enabled\":false,\"value\":null},\"ios.reminders_settings_ui_improvements\":{\"id\":55763,\"enabled\":false,\"value\":null},\"ios.reminders_suggestions\":{\"id\":55764,\"enabled\":false,\"value\":null},\"ios.sorting_options_dnd\":{\"id\":55765,\"enabled\":false,\"value\":null},\"ios.sqlite\":{\"id\":55766,\"enabled\":false,\"value\":null},\"ios.storekit_2\":{\"id\":55767,\"enabled\":false,\"value\":null},\"ios.task_duration_article\":{\"id\":55768,\"enabled\":false,\"value\":null},\"ios.teams_restricted_projects\":{\"id\":55769,\"enabled\":true,\"value\":null},\"ios.update_items_many\":{\"id\":55770,\"enabled\":true,\"value\":null},\"ios.upgrade_celebration\":{\"id\":55771,\"enabled\":true,\"value\":null},\"ios.use_kotlin_filterist\":{\"id\":55772,\"enabled\":false,\"value\":null},\"ios.use_realm_on_watchos\":{\"id\":55773,\"enabled\":true,\"value\":null},\"android.bottom_bar_settings\":{\"id\":55774,\"enabled\":false,\"value\":null},\"android.fast_view_switcher\":{\"id\":55775,\"enabled\":false,\"value\":null},\"frontend.collab_core_dev\":{\"id\":55776,\"enabled\":false,\"value\":null},\"frontend.print_refactor\":{\"id\":55777,\"enabled\":true,\"value\":null},\"frontend.project_id_mapping\":{\"id\":55778,\"enabled\":false,\"value\":null},\"frontend.sidebar_new_design\":{\"id\":55779,\"enabled\":true,\"value\":null},\"global.complete_item_sound\":{\"id\":55780,\"enabled\":true,\"value\":null},\"global.schedule_options\":{\"id\":55781,\"enabled\":false,\"value\":null},\"ios.better_comments\":{\"id\":55782,\"enabled\":false,\"value\":null},\"ios.duplicate_project\":{\"id\":55783,\"enabled\":false,\"value\":null},\"ios.new_reminders_controller\":{\"id\":55784,\"enabled\":true,\"value\":null},\"ios.widgets_promo\":{\"id\":55785,\"enabled\":false,\"value\":null},\"backend.verify_origin\":{\"id\":56077,\"enabled\":false,\"value\":null},\"global.task_duration_without_due\":{\"id\":56130,\"enabled\":false,\"value\":null},\"ios.new_layout_setting\":{\"id\":56140,\"enabled\":false,\"value\":null},\"android.navigation_improvements_setting\":{\"id\":56510,\"enabled\":false,\"value\":null},\"global.calendar_layout_project_view\":{\"id\":57705,\"enabled\":true,\"value\":null},\"frontend.datadog_performance_monitoring\":{\"id\":57840,\"enabled\":false,\"value\":null},\"global.manual_sort_in_today\":{\"id\":57942,\"enabled\":true,\"value\":null},\"ios.persistent_completed_tasks\":{\"id\":57976,\"enabled\":false,\"value\":null},\"android.day_progress_tile\":{\"id\":58176,\"enabled\":true,\"value\":null},\"android.folders\":{\"id\":58271,\"enabled\":false,\"value\":null},\"backend.change_project_unit_id_on_move\":{\"id\":58427,\"enabled\":false,\"value\":\"\"},\"frontend.comments_sorting_newest_on_top\":{\"id\":58554,\"enabled\":false,\"value\":null},\"frontend.new_connection_status\":{\"id\":58864,\"enabled\":true,\"value\":null},\"global.move_project_to_workspace\":{\"id\":58965,\"enabled\":true,\"value\":null},\"ios.folders\":{\"id\":59001,\"enabled\":false,\"value\":null},\"frontend.boards_in_filters_and_labels\":{\"id\":59808,\"enabled\":true,\"value\":null},\"backend.user_limits_repackaging\":{\"id\":59926,\"enabled\":false,\"value\":null},\"android.filters_ai_test\":{\"id\":60102,\"enabled\":true,\"value\":null},\"global.folders\":{\"id\":60681,\"enabled\":false,\"value\":null},\"frontend.special_v1_disconnect_backup\":{\"id\":61278,\"enabled\":true,\"value\":null},\"frontend.monochrome_tags_colors\":{\"id\":61325,\"enabled\":false,\"value\":\"\"},\"frontend.new_sync_engine\":{\"id\":61591,\"enabled\":false,\"value\":null},\"frontend.new_app_layout_released\":{\"id\":62875,\"enabled\":true,\"value\":null},\"frontend.personal_collabs\":{\"id\":63008,\"enabled\":false,\"value\":null},\"android.credential_manager\":{\"id\":63051,\"enabled\":false,\"value\":null},\"android.smart_lock_disabled\":{\"id\":63053,\"enabled\":false,\"value\":null},\"frontend.new_view_header\":{\"id\":64058,\"enabled\":true,\"value\":null},\"ios.view_option_filters\":{\"id\":64305,\"enabled\":false,\"value\":null},\"frontend.project_permissions\":{\"id\":64918,\"enabled\":false,\"value\":null},\"frontend.calendar_layout_scrolling\":{\"id\":66610,\"enabled\":true,\"value\":null},\"global.allowed_team_domains\":{\"id\":70503,\"enabled\":false,\"value\":null},\"frontend.workspace_project_extensions\":{\"id\":70726,\"enabled\":false,\"value\":null},\"frontend.first_party_template_integration\":{\"id\":71036,\"enabled\":false,\"value\":null},\"global.calendar_layout_filters_labels\":{\"id\":71040,\"enabled\":false,\"value\":null},\"frontend.workspace_ui_extensions\":{\"id\":71055,\"enabled\":false,\"value\":null}},\"identity\":\"47727464_ff7ddabc9a3170ed67cd7d565c844d0d963807aa6a689787d3ce9ed502cd81c1\",\"ts\":1704930603353,\"traits\":{\"appversion\":4969,\"platform\":\"web\",\"email\":\"kmirat123@gmail.com\",\"language\":\"en\",\"beta\":false,\"user_subscription\":\"Personal Free\"},\"evaluationEvent\":{}}"
+        },
+        {
+          "name": "RealIdMapping",
+          "value": "{}"
+        },
+        {
+          "name": "lastCleanReloadID",
+          "value": "\"13\""
+        }
+      ]
+    },
+    {
+      "origin": "https://todoist.com",
+      "localStorage": [
+        {
+          "name": "appSubdomainInitialized",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
