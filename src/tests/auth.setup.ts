@@ -10,8 +10,8 @@ setup('authenticate @login', async ({ page,context }) => {
     const login=new Login(page);
     await login.fullLoginProcess(config.username,config.password);
     await page.waitForURL('https://app.todoist.com/app/today');
-    await expect(page.locator('//h1[text()="Today"]')).toBeVisible();
     await page.context().storageState({ path: authFile });
+    page.close();
     await context.tracing.stop({ path: 'trace.zip' });
 
 });

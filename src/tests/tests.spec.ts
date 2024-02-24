@@ -6,25 +6,20 @@ import config from '../config.json'
 test.describe('Filter and sort validation', () => {
     let browser: BrowserWrapper;
     let mainPage: MainPage;
-    let taskName: string;
+    const taskName='study';
 
     test.beforeEach(async () => {
         browser=new BrowserWrapper();
         const page=await browser.getPage(config.mainUrl);
         mainPage=new MainPage(page);
         await mainPage.clickOnAddNewTaskButton();
-        taskName='study';
         await mainPage.fillTaskName(taskName);
         await mainPage.clickOnAddTaskButton();
     })
-    test.afterEach(async () => {
-        await mainPage.markTaskAsComplete();
-        await browser.closeBrowser();
-      });
 
     test('Add new task', async () => {
         const isTaskAdded=await mainPage.checkIfTaskAdded(taskName);
-        await expect(isTaskAdded).not.toBeNull();
+        expect(isTaskAdded).not.toBeNull();
 
     });
 
