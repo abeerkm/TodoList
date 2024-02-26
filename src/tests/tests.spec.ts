@@ -23,6 +23,12 @@ test.describe('Filter and sort validation', () => {
 
     });
 
-   
+    test('Edit task', async () => {
+        await mainPage.clickOnEditButton(taskName);
+        const newTaskName='new task Name'
+        await mainPage.changeTaskeName(newTaskName);
+        const isTaskAdded=await mainPage.checkIfTaskAdded(newTaskName);
+        await expect(isTaskAdded).not.toBeNull();
+    });
 
 });
