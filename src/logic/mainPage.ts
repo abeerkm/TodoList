@@ -14,13 +14,13 @@ export class MainPage extends BasePage{
     }
 
     fillTaskName= async (input:string) => {
-        const taskName=await this.page.locator('//div[@aria-label="Task name"]');       
+        const taskName= this.page.locator('//div[@aria-label="Task name"]');       
         await taskName.fill(input);
         }
     
 
     clickOnAddTaskButton= async () => {
-        const addTaskButton=await this.page.locator('//button[@aria-label="Add task"]');
+        const addTaskButton= this.page.locator('//button[@aria-label="Add task"]');
         await addTaskButton.click();
     }
 
@@ -32,8 +32,10 @@ export class MainPage extends BasePage{
 
     markTaskAsComplete=async () => {
         await this.page.waitForSelector('//button[@aria-label="Mark task as complete"]')
-        const markAsCompleteButton=await this.page.locator('//button[@aria-label="Mark task as complete"]').last();
+        const markAsCompleteButton= this.page.locator('//button[@aria-label="Mark task as complete"]').last();
         await markAsCompleteButton.click();
+        await this.page.waitForTimeout(2000);
+
     }
 
     clickOnEditButton= async (input:string) => {

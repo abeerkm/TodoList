@@ -6,7 +6,7 @@ import config from '../config.json'
 test.describe('Filter and sort validation', () => {
     let browser: BrowserWrapper;
     let mainPage: MainPage;
-    const taskName='study';
+    const taskName='test';
 
     test.beforeEach(async () => {
         browser=new BrowserWrapper();
@@ -15,6 +15,10 @@ test.describe('Filter and sort validation', () => {
         await mainPage.clickOnAddNewTaskButton();
         await mainPage.fillTaskName(taskName);
         await mainPage.clickOnAddTaskButton();
+    })
+
+    test.afterEach(async () => {
+        await mainPage.markTaskAsComplete();
     })
 
     test('Add new task', async () => {
@@ -28,7 +32,7 @@ test.describe('Filter and sort validation', () => {
         const newTaskName='new task Name'
         await mainPage.changeTaskeName(newTaskName);
         const isTaskAdded=await mainPage.checkIfTaskAdded(newTaskName);
-        await expect(isTaskAdded).not.toBeNull();
+        expect(isTaskAdded).not.toBeNull();
     });
 
 });
