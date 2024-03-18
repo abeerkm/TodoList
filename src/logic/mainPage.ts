@@ -2,11 +2,12 @@ import { Locator, Page } from "playwright";
 import { BasePage } from "../infra/basePage";
 export class MainPage extends BasePage{
     private addNewTaskButton:Locator;
-
+    private searchButton:Locator;
     constructor(page: Page) {
         super(page);
         this.initPage();
         this.addNewTaskButton=this.page.locator('//button[@class="plus_add_button"]');
+        this.searchButton= this.page.locator('//a[@aria-label="Search"]')
     }
 
     clickOnAddNewTaskButton= async () => {
@@ -47,8 +48,22 @@ export class MainPage extends BasePage{
     }
     changeTaskeName=async (input:string) => {
         this.fillTaskName(input);
-        const saveButton=await this.page.locator('//button[@data-testid="task-editor-submit-button"]');
+        const saveButton= this.page.locator('//button[@data-testid="task-editor-submit-button"]');
         await saveButton.click();
+    }
+
+    searchForSpecificWord= async (command:string) => {
+        await this.searchButton.click();
+        const input= this.page.locator('//input[@placeholder="Search or type a command…"]');
+        await input.type(command);
+    }
+
+    isValueFounded = async (command: string) => {
+        const searchInputValue = await this.page.locator('mark').first();
+        if (!searchInputValue)
+            return false; 
+        const textContent = await searchInputValue.textContent();
+        return textContent ? textContent.includes(command) : false;
     }
 
    

@@ -3,7 +3,7 @@ import { BrowserWrapper } from '../infra/browser-wrapper';
 import { MainPage } from '../logic/mainPage';
 import config from '../config.json'
 
-test.describe('Filter and sort validation', () => {
+test.describe('Add and edit tasks tests', () => {
     let browser: BrowserWrapper;
     let mainPage: MainPage;
     const taskName='test';
